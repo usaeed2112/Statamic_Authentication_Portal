@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* login form 1 */
+.section_1 {
+    max-width: 500px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+}
+.section_1 .heading {
+    color: #6b7288;
+    font-weight: 600;
+}
+.section_1 .para {
+    color: #989dad;
+    font-size: 13px;
+    text-align: center;
+}
+
+.section_1 form {
+    margin-top: 3rem;
+}
+.section_1 label {
+    color: #818183;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.section_1 input {
+    min-height: 50px;
+    border-radius: 0;
+    font-size: 14px;
+}
+.section_1 .checkbox {
+    width: 30px;
+    min-height: 30px;
+}
+.section_1 input::placeholder {
+    color: #8c92a5;
+}
+.section_1 .forgot_btn {
+    color: #9a7ffe;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.section_1 .btn_blue {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 16px;
+    width: 100%;
+    min-height: 50px;
+}
+.section_1 .footer_btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 575px) {
+    .section_1 .checkbox {
+        width: 15px;
+        min-height: 15px;
+    }
+}
+/* login form 1 */
